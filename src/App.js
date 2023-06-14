@@ -11,8 +11,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/register" element={<Register/>} />
-        <Route exact path="/login" element={<Secret/>} />
-        <Route exact path="/" element={<Login/>} />
+        <Route exact path="/" element={<Secret/>} />
+        <Route exact path="/login" element={<Login/>} />
       </Routes>
     </BrowserRouter>
   )
